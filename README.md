@@ -23,18 +23,16 @@ API RESTful desenvolvida durante os estudos práticos de arquitetura e desenvolv
 
 ---
 
-## ⚙️ Como Executar o Projeto Localmente
+## 🏗️ Arquitetura do Projeto
 
-### Pré-requisitos
-Certifica-te de que tens instalado no teu computador:
-* [Java Development Kit (JDK 17 ou superior)](https://adoptium.net/)
-* [Maven](https://maven.apache.org/)
-* [MySQL Server](https://dev.mysql.com/downloads/)
-* Uma IDE de tua preferência (IntelliJ IDEA, Eclipse ou VS Code)
+O projeto segue o padrão de arquitetura em camadas (Layered Architecture) para garantir uma separação limpa de responsabilidades e fácil manutenção:
 
-### Passo a Passo
-
-1. **Clonar o repositório:**
-   ```bash
-   git clone [https://github.com/WilliamRuan18/rest-spring-boot-and-java-erudio.git](https://github.com/WilliamRuan18/rest-spring-boot-and-java-erudio.git)
-  
+```text
+src/main/java/br/com/william/
+├── config/              # Configurações globais (CORS, Web, etc.)
+├── controllers/         # Camada REST (Endpoints/Handlers da API)
+├── exceptions/          # Tratamento e manipulação global de exceções
+├── model/               # Entidades JPA (Mapeamento da Base de Dados)
+├── repositories/        # Interfaces Spring Data JPA para acesso a dados
+├── services/            # Regras de negócio da aplicação
+└── Startup.java         # Ponto de entrada da aplicação Spring Boot
