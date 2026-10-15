@@ -1,7 +1,7 @@
 # 🚀 REST API com Spring Boot, Java e MySQL
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Java-17%2B-orange?style=for-the-badge&logo=java&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-21%2B-orange?style=for-the-badge&logo=java&logoColor=white" />
   <img src="https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen?style=for-the-badge&logo=springboot&logoColor=white" />
   <img src="https://img.shields.io/badge/MySQL-8.0-blue?style=for-the-badge&logo=mysql&logoColor=white" />
   <img src="https://img.shields.io/badge/Maven-Build-red?style=for-the-badge&logo=apachemaven&logoColor=white" />
@@ -14,7 +14,7 @@ API RESTful desenvolvida durante os estudos práticos de arquitetura e desenvolv
 ---
 
 ## 🛠️ Tecnologias e Ferramentas Utilizadas
-* **Java 17+**
+* **Java 21+**
 * **Spring Boot** (Spring Web, Spring Data JPA)
 * **MySQL** & **MySQL Workbench**
 * **Maven** (Gestão de dependências)
