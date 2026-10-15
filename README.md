@@ -49,3 +49,43 @@ Abaixo estão listados os principais endpoints disponíveis na API para a gestã
 | **POST** | `/person` | Regista uma nova pessoa | JSON da Pessoa (sem ID) | `200 OK` / `201 Created` |
 | **PUT** | `/person` | Atualiza os dados de uma pessoa | JSON da Pessoa (com ID) | `200 OK` |
 | **DELETE** | `/person/{id}` | Remove uma pessoa pelo ID | N/A | `204 No Content` |
+
+---
+
+---
+
+### 2. Ficheiro `ENDPOINTS.md`
+
+Crie um segundo ficheiro separado chamado **`ENDPOINTS.md`** na raiz do repositório para guardar exclusivamente a especificação detalhada das rotas:
+
+# 🔗 Especificação dos Endpoints da API (`/person`)
+
+Abaixo encontra-se a documentação detalhada das rotas disponíveis no recurso de Pessoas (`Person`).
+
+## 📋 Tabela Resumo
+
+| Método | Endpoint | Descrição | Corpo da Requisição (Body) | Resposta Esperada |
+| :--- | :--- | :--- | :--- | :--- |
+| **GET** | `/person` | Lista todas as pessoas registadas | N/A | `200 OK` (Array JSON) |
+| **GET** | `/person/{id}` | Procura uma pessoa pelo ID | N/A | `200 OK` (Objeto JSON) |
+| **POST** | `/person` | Regista uma nova pessoa | JSON da Pessoa (sem ID) | `200 OK` / `201 Created` |
+| **PUT** | `/person` | Atualiza os dados de uma pessoa | JSON da Pessoa (com ID) | `200 OK` |
+| **DELETE** | `/person/{id}` | Remove uma pessoa pelo ID | N/A | `204 No Content` |
+
+---
+
+## 📝 Exemplos de Payload (JSON)
+
+### 1. Criar Pessoa (`POST /person`)
+
+**Requisição:**
+--json
+{
+  "firstName": "William",
+  "lastName": "Silva",
+  "address": "São Paulo - Brasil",
+  "gender": "Male"
+}
+
+
+ 
