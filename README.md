@@ -74,18 +74,6 @@ Abaixo encontra-se a documentação detalhada das rotas disponíveis no recurso 
 
 ---
 
-## 📝 Exemplos de Payload (JSON)
-
-### 1. Criar Pessoa (`POST /person`)
-
-**Requisição:**
-´´json
-{
-  "firstName": "William",
-  "lastName": "Silva",
-  "address": "São Paulo - Brasil",
-  "gender": "Male"
-}
 
 
  
