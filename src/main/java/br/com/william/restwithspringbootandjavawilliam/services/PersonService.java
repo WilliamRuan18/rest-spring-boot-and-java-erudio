@@ -1,6 +1,6 @@
 package br.com.william.restwithspringbootandjavawilliam.services;
 
-import br.com.william.restwithspringbootandjavawilliam.expection.ResourceNotFoundException;
+import br.com.william.restwithspringbootandjavawilliam.exception.ResourceNotFoundException;
 import br.com.william.restwithspringbootandjavawilliam.model.Person;
 import br.com.william.restwithspringbootandjavawilliam.repository.PersonRepository;
 import org.springframework.stereotype.Service;

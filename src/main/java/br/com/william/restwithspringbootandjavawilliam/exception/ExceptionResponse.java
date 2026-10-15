@@ -1,4 +1,4 @@
-package br.com.william.restwithspringbootandjavawilliam.expection;
+package br.com.william.restwithspringbootandjavawilliam.exception;
 
 import java.util.Date;
 

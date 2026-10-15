@@ -1,7 +1,7 @@
-package br.com.william.restwithspringbootandjavawilliam.expection.hadler;
+package br.com.william.restwithspringbootandjavawilliam.exception.handler;
 
-import br.com.william.restwithspringbootandjavawilliam.expection.ExceptionResponse;
-import br.com.william.restwithspringbootandjavawilliam.expection.ResourceNotFoundException;
+import br.com.william.restwithspringbootandjavawilliam.exception.ExceptionResponse;
+import br.com.william.restwithspringbootandjavawilliam.exception.ResourceNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
