@@ -43,5 +43,6 @@ blog/bin/
 hs_err_pid*
 /.metadata/
 
-# Não subir o arquivo application.yml para o repositório
-src/main/resources/application.yml
+# Não subir o arquivo application.yml para o repositório, pois ele contém informações sensíveis de configuração do banco de dados e outras configurações do sistema.
+application.yml
+

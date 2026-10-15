@@ -8,7 +8,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1033391f-7583-4a9d-b51c-63e918ef8495" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/william/restwithspringbootandjavawilliam/expection/ExceptionResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/william/restwithspringbootandjavawilliam/exception/ExceptionResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/william/restwithspringbootandjavawilliam/expection/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/william/restwithspringbootandjavawilliam/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/william/restwithspringbootandjavawilliam/expection/hadler/CustomEntityResponseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/william/restwithspringbootandjavawilliam/exception/handler/CustomEntityResponseHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/william/restwithspringbootandjavawilliam/services/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/william/restwithspringbootandjavawilliam/services/PersonService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
