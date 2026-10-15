@@ -27,7 +27,6 @@ API RESTful desenvolvida durante os estudos práticos de arquitetura e desenvolv
 
 O projeto segue o padrão de arquitetura em camadas (Layered Architecture) para garantir uma separação limpa de responsabilidades e fácil manutenção:
 
-```text
 src/main/java/br/com/william/
 ├── config/              # Configurações globais (CORS, Web, etc.)
 ├── controllers/         # Camada REST (Endpoints/Handlers da API)
@@ -36,3 +35,17 @@ src/main/java/br/com/william/
 ├── repositories/        # Interfaces Spring Data JPA para acesso a dados
 ├── services/            # Regras de negócio da aplicação
 └── Startup.java         # Ponto de entrada da aplicação Spring Boot
+
+---
+
+## 🔗 Endpoints da API (`/person`)
+
+Abaixo estão listados os principais endpoints disponíveis na API para a gestão de Pessoas (`Person`):
+
+| Método | Endpoint | Descrição | Corpo da Requisição (Body) | Resposta Esperada |
+| :--- | :--- | :--- | :--- | :--- |
+| **GET** | `/person` | Lista todas as pessoas registadas | N/A | `200 OK` (Array JSON) |
+| **GET** | `/person/{id}` | Procura uma pessoa pelo ID | N/A | `200 OK` (Objeto JSON) |
+| **POST** | `/person` | Regista uma nova pessoa | JSON da Pessoa (sem ID) | `200 OK` / `201 Created` |
+| **PUT** | `/person` | Atualiza os dados de uma pessoa | JSON da Pessoa (com ID) | `200 OK` |
+| **DELETE** | `/person/{id}` | Remove uma pessoa pelo ID | N/A | `204 No Content` |
